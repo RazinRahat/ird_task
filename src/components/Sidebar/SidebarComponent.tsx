@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import React from 'react'
-import dua_logo from '../../../public/dua-logo.svg';
+import dua_logo from '../../../public/images/dua-logo.svg';
 import { FaHandHoldingHeart } from "react-icons/fa6";
 import { CiHome } from "react-icons/ci";
 import { PiSquaresFourLight } from "react-icons/pi";

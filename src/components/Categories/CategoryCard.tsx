@@ -1,7 +1,7 @@
 'use client'
 
 import React, { FunctionComponent } from 'react'
-import dua_gurutto from '../../../public/duar_gurutto.svg'
+import dua_gurutto from '../../../public/images/duar_gurutto.svg'
 import Image from 'next/image'
 
 type Props = {
@@ -12,7 +12,7 @@ type Props = {
 }
 
 const CategoryCard:React.FC<Props> = ({cat_name_en, no_of_subcat, no_of_dua, cat_icon}) => {
-  const Imgsrc = "../../../public/" + cat_icon + "svg"
+  const Imgsrc = "/images/" + cat_icon + ".svg"
   return (
     <div className='
           flex
@@ -53,7 +53,7 @@ const CategoryCard:React.FC<Props> = ({cat_name_en, no_of_subcat, no_of_dua, cat
               bg-gray-100
             '
           >
-            <Image src={Imgsrc} alt="dua_gurutto" className='p-3 h-40 w-40' />
+            <Image src={Imgsrc} width={40} height={40} alt={cat_icon} className='p-3 h-40 w-40' />
           </div>
           <div
             className='
