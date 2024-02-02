@@ -43,6 +43,7 @@ const CategoriesComponent = () => {
         h-[85.5vh]
         rounded-2xl
         overflow-hidden
+        ml-5
       '
     >
       <CardHeader
